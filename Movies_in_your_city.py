@@ -14,7 +14,7 @@ def movies_in_theatre(url):
         movie_name+=str(i)+"."+title+" "+link+"\n"
         i+=1
 
-    fw = open('Movies_near_me.txt', 'w')
+    fw = open('Movies_in_my_city.txt', 'w')
     fw.write(movie_name)
     fw.close()
 
